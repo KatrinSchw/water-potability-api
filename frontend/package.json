@@ -12,9 +12,9 @@
     "typescript": "^4.3.5"
   },
   "scripts": {
-    "dev": "parcel src/index.html --out-dir build/debug",
+    "dev": "parcel index.html --out-dir build/debug",
     "deploy": "yarn install && yarn build",
-    "build": "echo `pwd` && parcel build src/index.html --out-dir build/release --public-url ./",
-    "start": "parcel src/index.html --out-dir build"
+    "build": "echo `pwd` && parcel build index.html --out-dir build/release --public-url ./",
+    "start": "parcel index.html --out-dir build"
   }
 }
