@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "cd frontend && yarn install && yarn build && mv build ../"
+    "deploy": "cd frontend && npm install && npm run build && mv build ../"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ngtungngo/water-potability-api.git"
   },
   "keywords": [
-    "water-potability-"
+    "water-potability-"ls
   ],
   "author": "Thien An",
   "license": "ISC",
