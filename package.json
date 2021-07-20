@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Water potability app",
   "main": "index.js",
+  "private": true,
+  "workspaces": ["frontend"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "cd frontend && yarn build && mv build ../"
