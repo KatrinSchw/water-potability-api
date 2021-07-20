@@ -1,0 +1,23 @@
+{
+  "name": "water-potability-api",
+  "version": "1.0.0",
+  "description": "Water potability app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cd frontend && yarn install && yarn build && mv build ../"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngtungngo/water-potability-api.git"
+  },
+  "keywords": [
+    "water-potability-"
+  ],
+  "author": "Thien An",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngtungngo/water-potability-api/issues"
+  },
+  "homepage": "https://github.com/ngtungngo/water-potability-api#readme"
+}
