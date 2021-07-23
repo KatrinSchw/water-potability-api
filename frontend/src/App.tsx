@@ -1,16 +1,28 @@
 import React from 'react'
-import {HelloWorld} from "./components/HelloWorld";
-import {Tabelle} from "./components/Tabelle";
+import {Tablee} from "./components/Table";
 import {Nav} from "./components/Nav";
-import {MyNavbar} from "./components/Navbar"
+import {Card} from "./components/Card";
+import BarChart from "./components/BarChart";
+import {Grid} from "./components/Grid";
+import {Input} from "./components/Input";
 
 export function App() {
     return(
         <>
-            <Tabelle></Tabelle>
+            <div className="mittig"><h1>WATER POTABILITY</h1></div>
             <Nav></Nav>
-            <HelloWorld></HelloWorld>
-            <MyNavbar></MyNavbar>
+            <br />
+            <Card />
+            <Card></Card>
+            <Card></Card>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <div className="Diagramm"><h3>Average</h3><BarChart></BarChart></div>
+            <br /><br />
+                <Tablee></Tablee>
+            <br />
+            <Grid></Grid>
+            <br />
+            <Input></Input>
         </>
     )
 }

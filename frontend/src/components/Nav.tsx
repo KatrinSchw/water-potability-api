@@ -1,27 +1,26 @@
 import React from 'react'
 
 export function Nav() {
-    // @ts-ignore
-    // @ts-ignore
-    // @ts-ignore
-    // @ts-ignore
+    fetch('http://water-potability.herokuapp.com')
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+
     return(
         <>
-            <h1>Hello!</h1>
+            <p className="overview">
             <ul className="nav">
                 <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Active</a>
+                    <a className="nav-link" aria-current="page" href="#">Company</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
+                    <a className="nav-link" href="#">Overview</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link disabled" href="#" aria-disabled="true">Disabled</a>
+                    <a className="nav-link" href="#">Analysis</a>
                 </li>
             </ul>
+            </p>
         </>
     )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 import {Table} from "react-bootstrap";
 
-export function Tabelle() {
+export function Tablee() {
     return (
         <>
-            <Table responsive>
+             <div className="hihi">
+               <Table responsive>
   <thead>
     <tr>
       <th>#</th>
@@ -34,6 +35,7 @@ export function Tabelle() {
     </tr>
   </tbody>
 </Table>
+             </div>
         </>
     )
 }
