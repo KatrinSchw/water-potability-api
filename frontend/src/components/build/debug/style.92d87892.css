@@ -1,0 +1,141 @@
+
+.hahaha {
+    background: white;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+    overflow: auto;
+    position: relative;
+    border: 2px solid #5c636a;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.my-card {
+    background: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    overflow: auto;
+    border: 2px solid #5c636a;
+    align-items: center;
+    float: left;
+    margin-left: 90px;
+    border-radius: 7px;
+}
+
+.mittig {
+    text-align: center;
+}
+
+.overview {
+    border: 1px solid black;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: white;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+.hihi {
+    background: white;
+    max-width: 1260px;
+    margin: auto;
+    padding: 0px;
+    overflow: auto;
+    border: 2px solid #5c636a;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.list-group {
+    background: white;
+    max-width: 100px;
+    margin: auto;
+    padding: 0px;
+    overflow: auto;
+    border: 0.5px solid #5c636a;
+    align-items: center;
+}
+
+.list-groupp {
+    background: white;
+    max-width: 40px;
+    margin: auto;
+    padding: 0px;
+    overflow: auto;
+    border: 0.5px solid #5c636a;
+    align-items: center;
+}
+
+.Diagramm {
+background: white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    overflow: auto;
+    border: 2px solid #5c636a;
+    align-items: center;
+    margin-left: 90px;
+    border-radius: 7px;
+}
+
+.InputKasten {
+    background: LightCyan;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    overflow: auto;
+    border: 0px solid #5c636a;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.Table {
+    color: #0b5ed7;
+    font-size: smaller;
+    border: 1px solid;
+    border-collapse: separate;
+    border-color: red;
+    margin-top: 2em;
+    border-spacing: 50px 10px;
+    text-align: left;
+}
+
+.btn-outline-primary {
+    text-align: center;
+    width: 350px;
+    color: white;
+    background-color: green;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.btn-outline-primary:hover {
+    text-align: center;
+    width: 350px;
+    color: white;
+    background-color: darkgreen;
+    padding: 8px;
+    font-size: 16px;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+.table-hover {
+    max-width: 400px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+
+/*# sourceMappingURL=/style.92d87892.css.map */
