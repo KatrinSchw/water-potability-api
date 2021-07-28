@@ -1,0 +1,14 @@
+Flask==2.0.1
+flask_pymongo==2.3.0
+dnspython
+gunicorn
+pymongo~=3.12.0
+requests~=2.26.0
+flask_cors
+matplotlib
+pandas
+numpy
+sklearn
+seaborn
+imblearn
+pandas-profiling
